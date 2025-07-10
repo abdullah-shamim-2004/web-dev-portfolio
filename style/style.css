@@ -6,12 +6,19 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    line-height: 1.2;
     font-weight: 400;
 }
 
-/* common */
+/* common style */
+.dark-1{
+    color: #181818;
+}
 .dark-2{
     color: #474747;
+}
+.dark-3{
+    color: #CCCCCC;
 }
 .primary-color{
     color: #FD6E0A;
@@ -23,6 +30,13 @@ body{
     border: none;
     border-radius: 5px;
     font-size: 1.25rem;
+}
+
+/* header */
+.header{
+    background-image: url(../img/developer.png) , url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 nav{
     display: flex;
@@ -52,4 +66,30 @@ ul li{
 ul li a {
     text-decoration: none;
     /* color: #333; */
+}
+
+
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+.banner-content {
+    max-width: 580px;
+}
+.banner-gretting{
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+.banner-title{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.banner-desciption{
+    font-size: 1.125rem;
+    line-height: 1.4;
 }
